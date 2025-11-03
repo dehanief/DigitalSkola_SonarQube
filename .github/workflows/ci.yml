@@ -71,7 +71,7 @@ jobs:
         uses: SonarSource/sonarcloud-github-action@v2
         with:
           args: >
-            -Dsonar.projectKey=dehanief_tugas-project-digital-skola-devops
+            -Dsonar.projectKey=dehanief_DigitalSkola_SonarQube
             -Dsonar.branch.name=main
             -Dsonar.organization=dehanief
             -Dsonar.javascript.lcov.reportPaths=coverage/lcov.info
